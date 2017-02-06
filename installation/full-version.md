@@ -2,11 +2,11 @@
 
 Run the following commands on your terminal to setup [React Native Messaging App Theme]() on your system.
 
-_**Note:**_ Go through the complete procedure of installation if you wish to include **CodePush** with your app. Otherwise, please skip the steps corresponding to Codepush. 
+_**Note:**_ Go through the complete procedure of installation if you wish to include **CodePush** with your app. Otherwise, please skip the steps corresponding to Codepush.
 
 ## Installation
 
-* **Opt #1. Download ZIP** 
+* **Opt #1. Download ZIP**
 
     Not familiar with Git?
     [Click here]() to download the Full Version of Messaging  App.
@@ -15,7 +15,7 @@ _**Note:**_ Go through the complete procedure of installation if you wish to inc
 
 * **Opt #2. Clone using GitStrap Web Client**
 To setup the Full Version for Messaging App on your system, with **gitstrap** tools to sync your app with constant updates, clone the repo.
-[Click here](#GitStrap Tools) to clone Messaging App using GitStrap.
+[Click here](.gitstrap-tools.md) to clone Messaging App using GitStrap.
 
 * Install packages for Full Version
 ```

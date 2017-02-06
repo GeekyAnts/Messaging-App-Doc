@@ -7,13 +7,14 @@
 
 <img src="{{('/docs/assets/iosphone.png')}}" alt="" align="right" />
 
-* [Button](/docs/components/Button.md)
-* [Card](/docs/components/Card.md)
-* [Icon](/docs/components/Icon.md)
-* [InputGroup](/docs/components/InputGroup.md)
-* [List](/docs/components/List.md)
-* [Spinner](/docs/components/Spinner.md)
-* [Tab](/docs/components/Tab.md)
-* [Tabs](/docs/components/Tabs.md)
-* [Thumbnail](/docs/components/Thumbnail.md)
-
+* [Button](./components/button.md)
+* [Card](./components/card.md)
+* [Content](./components/content.md)
+* [Header](./components/header.md)
+* [Icon](./components/icon.md)
+* [InputGroup](./components/inputgroup.md)
+* [List](./components/list.md)
+* [Spinner](./components/spinner.md)
+* [Tab](./components/tab.md)
+* [Tabs](./components/tabs.md)
+* [Thumbnail](./components/thumbnail.md)
