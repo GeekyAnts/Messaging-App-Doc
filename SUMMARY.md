@@ -23,4 +23,5 @@
 * [Packages](packages.md)
 * [Release Notes](release-notes.md)
 * [License](license.md)
+* [FAQs](faqs.md)
 
