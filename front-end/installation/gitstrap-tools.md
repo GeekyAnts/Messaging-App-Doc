@@ -8,8 +8,7 @@ npm install -g gitstrap-cli
 * Clone and Setup Upstream and Origin
 ``` gitstrap init <gitstrap-repo> <my-repo> <folder-name>
 ```
-
-    The above line of command functions as listed below:
+  The above line of command functions as listed below:
 
     * ``` my-repo ``` should be an existing repository.
     * Clones Dating App (upstream) on user local system with same git-branch as that of upstream, say ``` master ```.
