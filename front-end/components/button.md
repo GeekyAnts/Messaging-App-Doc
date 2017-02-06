@@ -22,13 +22,12 @@ Buttons are the integral part of an application. They are used for various purpo
     </table>
 
 **Contents:**
-* [Button Theme](/docs/components/button/ButtonTheme.md)
-* [Block Button](/docs/components/button/BlockButton.md)
-* [Rounded Button](/docs/components/button/RoundButton.md)
-* [Icon Button](/docs/components/button/IconButton.md)
-* [Outline Button](/docs/components/button/OutlineButton.md)
-* [Transparent Button](/docs/components/button/TransparentButton.md)
-* [Button Size](/docs/components/button/ButtonSize.md)
-* [Disabled Button](/docs/components/button/DisabledButton.md)
-* [Capitalize Button Size](/docs/components/button/CustomTextButton.md)
-
+* [Button Theme](./Button/ButtonTheme.md)
+* [Block Button](./Button/BlockButton.md)
+* [Rounded Button](./Button/RoundButton.md)
+* [Icon Button](./Button/IconButton.md)
+* [Outline Button](./Button/OutlinedButton.md)
+* [Transparent Button](./Button/TransparentButton.md)
+* [Button Size](./Button/ButtonSize.md)
+* [Disabled Button](./Button/DisabledButton.md)
+* [Capitalize Button Size](./Button/CustomTextButton.md)
