@@ -4,8 +4,8 @@ Messaging App guides you throughout building your app, providing the steps and p
 
 
 **Contents discussed in this section:**
-* How to add new Component?
-* How to add new StyleSheet?
+* [How to add new Component?](#How to add new Component)
+* [How to add new StyleSheet?](#How to add new StyleSheet)
 
 ### How to add new component
 

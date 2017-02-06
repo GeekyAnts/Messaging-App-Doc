@@ -15,7 +15,7 @@ _**Note:**_ Go through the complete procedure of installation if you wish to inc
 
 * **Opt #2. Clone using GitStrap Web Client**
 To setup the Full Version for Messaging App on your system, with **gitstrap** tools to sync your app with constant updates, clone the repo.
-[Click here]() to clone Messaging App using GitStrap.
+[Click here](#GitStrap Tools) to clone Messaging App using GitStrap.
 
 * Install packages for Full Version
 ```
