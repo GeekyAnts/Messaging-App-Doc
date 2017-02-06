@@ -29,7 +29,7 @@
   </table>
 
 *Syntax*
-{% codetabs name="Basic", type="js" -%}
+{%- codetabs name="Basic", type="js" -%}
 import React, { Component } from 'react';
 import { Container, Icon } from 'native-base/ui';
 import { Header } from 'native-base';
