@@ -1,4 +1,4 @@
-<img height="490" width="266" src="" alt="" />
+<img height="200" width="200" src="./assets/SplashScreen.png" alt="" />
 
 # Messaging App
 
