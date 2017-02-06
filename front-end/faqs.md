@@ -1,7 +1,6 @@
 # FAQs
 
 
-- [Installation Failed](#installation-failed)
 - [Watchman Error](#watchman-error)
 - [Unrecognized font family ionicons](#unrecognized-font)
 - [react-native-vector-icons peer installation failed](#icons-peer-installation-failed)

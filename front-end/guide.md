@@ -4,9 +4,10 @@ Messaging App guides you throughout building your app, providing the steps and p
 
 
 **Contents discussed in this section:**
-* [How to add new Component?](#How to add new Component)
-* [How to add new StyleSheet?](#How to add new StyleSheet)
+* [How to add new Component?](#new-component)
+* [How to add new StyleSheet?](#new-styleSheet)
 
+<a id="new-component"></a>
 ### How to add new component
 
 * Create a new folder, say ``` newComponent ``` and place it under ``` /src``` .
@@ -18,6 +19,8 @@ class NewComponent extends Component {
     ...
 }
 ```
+
+<a id="new-stylesheet"></a>
 ### How to add new styleSheet
 
 Create a new file ``` styles.js``` , place it under ```/src/newComponent```.
