@@ -6,7 +6,6 @@
 * [Installation](installation.md)
   * [Package Contents](installation/package-contents.md)
   * [Full Version](installation/full-version.md)
-  * [GitStrap Tools](installation/gitstrap-tools.md)
 * [Components](components.md)
   * [Button](components/button.md)
   * [Card](components/card.md)
@@ -16,8 +15,12 @@
   * [InputGroup](components/inputgroup.md)
   * [List](components/list.md)
   * [Spinner](components/spinner.md)
+  * [Tab](components/tab.md)
+  * [Tabs](components/tabs.md)
+  * [Thumbnail](components/thumbnail.md)
 * [Guide](guide.md)
+  * [Customize](guide/customize.md)
 * [Packages](packages.md)
 * [Release Notes](release-notes.md)
-* License
+* [License](license.md)
 

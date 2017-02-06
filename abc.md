@@ -1,16 +1,4 @@
-
-
-<img src="http://www.planwallpaper.com/static/images/canberra_hero_image_JiMVvYU.jpg" width="50px" height="50px" />
-
 # React Native Messaging App  Theme With Backend
-
-
-The ideal starter kit / app script with all the needed UI elements alongwith:
-
-* Mobx,
-* NativeBase,
-* CodePush and
-* Backend integration \(FeatherJS\) to build your iOS and Android dating app
 
 Based on [React Native](https://github.com/facebook/react-native) and [NativeBase](http://nativebase.io/docs/v0.4.6/), we offer you [React Native Messaging App Theme](http://market.nativebase.io/view/react-native-taxi-app-theme); a well structured, responsive for iOS and Android, having fully customizable pages along-with a rich collection of UI elements specifically for an ideal messagibg app to help you quickly get started on your next project.
 
