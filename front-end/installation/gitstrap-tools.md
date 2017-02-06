@@ -7,30 +7,30 @@ npm install -g gitstrap-cli
 ```
 
 * Clone and Setup Upstream and Origin
-```
-gitstrap init <gitstrap-repo> <my-repo> <folder-name>
-```
-The above line of command functions as listed below:
-* ``` my-repo ``` should be an existing repository.
-* Clones Dating App (upstream) on user local system with same git-branch as that of upstream, say ``` master ```.
-* Sets the upstream (Dating App) and origin (my-repo) on user local system respectively.
-* Push to user remote repo.
-* ``` folder-name ``` is optional argument of gitstrap init comm* and.
-* Without _folder-name_ : Clones Dating App into your current location of directory.
-* With _folder-name_ : Clones Dating App into the specified location of your directory.
+  ```
+  gitstrap init <gitstrap-repo> <my-repo> <folder-name>
+  ```
+  The above line of command functions as listed below:
+  * ``` my-repo ``` should be an existing repository.
+  * Clones Dating App (upstream) on user local system with same git-branch as that of upstream, say ``` master ```.
+  * Sets the upstream (Dating App) and origin (my-repo) on user local system respectively.
+  * Push to user remote repo.
+  * ``` folder-name ``` is optional argument of gitstrap init comm* and.
+    * Without _folder-name_ : Clones Dating App into your current location of directory.
+    * With _folder-name_ : Clones Dating App into the specified location of your directory.
 
 * Sync Update from GitStrap Repo
-```
-gitstrap sync <upstream-branch>
-```
-The above line of command functions as listed below:
-* Pulls from upstream i.e., ```master``` (from default git-branch)
-* Merges into user local repo i.e., ```master``` (same git-branch as that during clone)
-* This command by default pulls and merge the same branch of upstream repo with that of user local repo.
-* ```upstream-branch``` is optional argument of _gitstrap sync_ command.
-This lets you choose between your git-branch for sync.
-_Example:_
-* If you want to sync Dating App's ```master``` with your repo's ```development```, include ```upstream-branch``` with gitstrap sync command.
-* ```git checkout development```
+  ```
+  gitstrap sync <upstream-branch>
+  ```
+  The above line of command functions as listed below:
+  * Pulls from upstream i.e., ```master``` (from default git-branch)
+  * Merges into user local repo i.e., ```master``` (same git-branch as that during clone)
+  * This command by default pulls and merge the same branch of upstream repo with that of user local repo.
+  * ```upstream-branch``` is optional argument of _gitstrap sync_ command.
+  This lets you choose between your git-branch for sync.
+  _Example:_
+  * If you want to sync Dating App's ```master``` with your repo's ```development```, include ```upstream-branch``` with gitstrap sync command.
+  * ```git checkout development```
 
-```gitstrap sync master```
+  ```gitstrap sync master```
