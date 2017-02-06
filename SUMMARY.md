@@ -9,8 +9,11 @@
   * [GitStrap Tools](installation/gitstrap-tools.md)
 * [Components](components.md)
   * [Button](components/button.md)
+  * [Card](components/card.md)
+  * [Content](components/content.md)
+  * [Header](components/header.md)
 * [Guide](guide.md)
 * [Packages](packages.md)
-* Release Notes
+* [Release Notes](release-notes.md)
 * License
 
