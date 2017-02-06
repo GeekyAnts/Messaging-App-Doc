@@ -1,7 +1,6 @@
 # Summary
 
 * [Overview](README.md)
-  * [Introduction](abc.md)
 * [Technologies](technologies.md)
 * [Installation](installation.md)
   * [Full Version](installation/full-version.md)
