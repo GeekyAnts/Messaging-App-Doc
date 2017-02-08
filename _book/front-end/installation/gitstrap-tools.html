@@ -57,7 +57,7 @@
     <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="../components.html" />
+    <link rel="next" href="../guide.html" />
     
     
     <link rel="prev" href="full-version.html" />
@@ -175,169 +175,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5" data-path="../components.html">
-            
-                <a href="../components.html">
-            
-                    
-                    Components
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.5.1" data-path="../components/button.html">
-            
-                <a href="../components/button.html">
-            
-                    
-                    Button
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.5.2" data-path="../components/card.html">
-            
-                <a href="../components/card.html">
-            
-                    
-                    Card
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.5.3" data-path="../components/content.html">
-            
-                <a href="../components/content.html">
-            
-                    
-                    Content
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.5.4" data-path="../components/header.html">
-            
-                <a href="../components/header.html">
-            
-                    
-                    Header
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.5.5" data-path="../components/icon.html">
-            
-                <a href="../components/icon.html">
-            
-                    
-                    Icon
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.5.6" data-path="../components/inputgroup.html">
-            
-                <a href="../components/inputgroup.html">
-            
-                    
-                    InputGroup
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.5.7" data-path="../components/list.html">
-            
-                <a href="../components/list.html">
-            
-                    
-                    List
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.5.8" data-path="../components/spinner.html">
-            
-                <a href="../components/spinner.html">
-            
-                    
-                    Spinner
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.5.9" data-path="../components/tab.html">
-            
-                <a href="../components/tab.html">
-            
-                    
-                    Tab
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.5.10" data-path="../components/tabs.html">
-            
-                <a href="../components/tabs.html">
-            
-                    
-                    Tabs
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.5.11" data-path="../components/thumbnail.html">
-            
-                <a href="../components/thumbnail.html">
-            
-                    
-                    Thumbnail
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="1.6" data-path="../guide.html">
+        <li class="chapter " data-level="1.5" data-path="../guide.html">
             
                 <a href="../guide.html">
             
@@ -351,7 +189,7 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.6.1" data-path="../guide/customize.html">
+        <li class="chapter " data-level="1.5.1" data-path="../guide/customize.html">
             
                 <a href="../guide/customize.html">
             
@@ -369,7 +207,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.7" data-path="../packages.html">
+        <li class="chapter " data-level="1.6" data-path="../packages.html">
             
                 <a href="../packages.html">
             
@@ -382,7 +220,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.8" data-path="../release-notes.html">
+        <li class="chapter " data-level="1.7" data-path="../release-notes.html">
             
                 <a href="../release-notes.html">
             
@@ -395,7 +233,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.9" data-path="../faqs.html">
+        <li class="chapter " data-level="1.8" data-path="../faqs.html">
             
                 <a href="../faqs.html">
             
@@ -408,7 +246,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.10" data-path="../license.html">
+        <li class="chapter " data-level="1.9" data-path="../license.html">
             
                 <a href="../license.html">
             
@@ -699,36 +537,42 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="gitstrap-cli-tools">GitStrap CLI Tools</h1>
+                                <p>#
+GitStrap CLI Tools</p>
 <ul>
 <li><p>Globally install GitStrap CLI</p>
 <pre><code>npm install -g gitstrap-cli
 </code></pre></li>
 <li><p>Clone and Setup Upstream and Origin</p>
 <pre><code>gitstrap init &lt;gitstrap-repo&gt; &lt;my-repo&gt; &lt;folder-name&gt;
-</code></pre><p>  The above line of command functions as listed below:</p>
-<pre><code>  * ``` my-repo ``` should be an existing repository.
-  * Clones Dating App (upstream) on user local system with same git-branch as that of upstream, say ``` master ```.
-  * Sets the upstream (Dating App) and origin (my-repo) on user local system respectively.
-  * Push to user remote repo.
-  * ``` folder-name ``` is optional argument of gitstrap init comm* and.
-      * Without _folder-name_ : Clones Dating App into your current location of directory.
-      * With _folder-name_ : Clones Dating App into the specified location of your directory.
-</code></pre></li>
+</code></pre><p>The above line of command functions as listed below:</p>
+<ul>
+<li><code>my-repo</code> should be an existing repository.</li>
+<li>Clones Messaging App (upstream) on user local system with same git-branch as that of upstream, say <code>master</code>.</li>
+<li>Sets the upstream (Messaging App) and origin (my-repo) on user local system respectively.</li>
+<li>Push to user remote repo.</li>
+<li><code>folder-name</code> is optional argument of gitstrap init command.<ul>
+<li>Without <em>folder-name</em> : Clones Messaging App into your current location of directory.</li>
+<li>With <em>folder-name</em> : Clones Messaging App into the specified location of your directory.</li>
+</ul>
+</li>
+</ul>
+</li>
 <li><p>Sync Update from GitStrap Repo</p>
 <pre><code>gitstrap sync &lt;upstream-branch&gt;
-</code></pre><p>  The above line of command functions as listed below:</p>
-<pre><code>  * Pulls from upstream i.e., ```master``` (from default git-branch)
-  * Merges into user local repo i.e., ```master``` (same git-branch as that during clone)
-  * This command by default pulls and merge the same branch of upstream repo with that of user local repo.
-  * ```upstream-branch``` is optional argument of _gitstrap sync_ command.
-  This lets you choose between your git-branch for sync.
-  _Example:_
-      * If you want to sync Dating App&apos;s ```master``` with your repo&apos;s ```development```, include ```upstream-branch``` with gitstrap sync command.
-      * ```git checkout development```
-
-      ```gitstrap sync master```
-</code></pre></li>
+</code></pre><p>The above line of command functions as listed below:</p>
+<ul>
+<li>Pulls from upstream i.e., <code>master</code> (from default git-branch)</li>
+<li>Merges into user local repo i.e., <code>master</code> (same git-branch as that during clone)</li>
+<li>This command by default pulls and merge the same branch of upstream repo with that of user local repo.</li>
+<li><code>upstream-branch</code> is optional argument of <em>gitstrap sync</em> command.
+This lets you choose between your git-branch for sync.
+<em>Example:</em></li>
+<li>If you want to sync Messaging App&apos;s <code>master</code> with your repo&apos;s <code>development</code>, include <code>upstream-branch</code> with gitstrap sync command.</li>
+<li><code>git checkout development</code></li>
+</ul>
+<p><code>gitstrap sync master</code></p>
+</li>
 </ul>
 
                                 
@@ -762,7 +606,7 @@
                 </a>
                 
                 
-                <a href="../components.html" class="navigation navigation-next " aria-label="Next page: Components">
+                <a href="../guide.html" class="navigation navigation-next " aria-label="Next page: Guide">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -773,7 +617,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"GitStrap Tools","level":"1.4.2","depth":2,"next":{"title":"Components","level":"1.5","depth":1,"path":"front-end/components.md","ref":"./front-end/components.md","articles":[{"title":"Button","level":"1.5.1","depth":2,"path":"front-end/components/button.md","ref":"./front-end/components/button.md","articles":[]},{"title":"Card","level":"1.5.2","depth":2,"path":"front-end/components/card.md","ref":"./front-end/components/card.md","articles":[]},{"title":"Content","level":"1.5.3","depth":2,"path":"front-end/components/content.md","ref":"./front-end/components/content.md","articles":[]},{"title":"Header","level":"1.5.4","depth":2,"path":"front-end/components/header.md","ref":"./front-end/components/header.md","articles":[]},{"title":"Icon","level":"1.5.5","depth":2,"path":"front-end/components/icon.md","ref":"./front-end/components/icon.md","articles":[]},{"title":"InputGroup","level":"1.5.6","depth":2,"path":"front-end/components/inputgroup.md","ref":"./front-end/components/inputgroup.md","articles":[]},{"title":"List","level":"1.5.7","depth":2,"path":"front-end/components/list.md","ref":"./front-end/components/list.md","articles":[]},{"title":"Spinner","level":"1.5.8","depth":2,"path":"front-end/components/spinner.md","ref":"./front-end/components/spinner.md","articles":[]},{"title":"Tab","level":"1.5.9","depth":2,"path":"front-end/components/tab.md","ref":"./front-end/components/tab.md","articles":[]},{"title":"Tabs","level":"1.5.10","depth":2,"path":"front-end/components/tabs.md","ref":"./front-end/components/tabs.md","articles":[]},{"title":"Thumbnail","level":"1.5.11","depth":2,"path":"front-end/components/thumbnail.md","ref":"./front-end/components/thumbnail.md","articles":[]}]},"previous":{"title":"Full Version","level":"1.4.1","depth":2,"path":"front-end/installation/full-version.md","ref":"./front-end/installation/full-version.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"front-end/installation/gitstrap-tools.md","mtime":"2017-02-06T14:05:44.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-02-06T14:14:13.816Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"GitStrap Tools","level":"1.4.2","depth":2,"next":{"title":"Guide","level":"1.5","depth":1,"path":"front-end/guide.md","ref":"./front-end/guide.md","articles":[{"title":"Customize","level":"1.5.1","depth":2,"path":"front-end/guide/customize.md","ref":"./front-end/guide/customize.md","articles":[]}]},"previous":{"title":"Full Version","level":"1.4.1","depth":2,"path":"front-end/installation/full-version.md","ref":"./front-end/installation/full-version.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"front-end/installation/gitstrap-tools.md","mtime":"2017-02-08T14:28:06.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-02-08T14:30:22.855Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
@@ -781,6 +625,10 @@
         
     <script src="../../gitbook/gitbook.js"></script>
     <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
     
         
         <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>

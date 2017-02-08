@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Full Version · GitBook</title>
+        <title>Customize · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.2">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="gitstrap-tools.html" />
+    <link rel="next" href="../packages.html" />
     
     
-    <link rel="prev" href="../installation.html" />
+    <link rel="prev" href="../guide.html" />
     
 
     </head>
@@ -144,9 +144,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter active" data-level="1.4.1" data-path="full-version.html">
+        <li class="chapter " data-level="1.4.1" data-path="../installation/full-version.html">
             
-                <a href="full-version.html">
+                <a href="../installation/full-version.html">
             
                     
                     Full Version
@@ -157,9 +157,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4.2" data-path="gitstrap-tools.html">
+        <li class="chapter " data-level="1.4.2" data-path="../installation/gitstrap-tools.html">
             
-                <a href="gitstrap-tools.html">
+                <a href="../installation/gitstrap-tools.html">
             
                     
                     GitStrap Tools
@@ -189,9 +189,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.5.1" data-path="../guide/customize.html">
+        <li class="chapter active" data-level="1.5.1" data-path="customize.html">
             
-                <a href="../guide/customize.html">
+                <a href="customize.html">
             
                     
                     Customize
@@ -522,7 +522,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="../.." >Full Version</a>
+        <a href="../.." >Customize</a>
     </h1>
 </div>
 
@@ -537,48 +537,72 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="full-version">Full Version</h1>
-<p>Run the following commands on your terminal to setup <a href="">React Native Messaging App Theme</a> on your system.</p>
-<p><em><strong>Note:</strong></em> Go through the complete procedure of installation if you wish to include <strong>CodePush</strong> with your app. Otherwise, please skip the steps corresponding to Codepush.</p>
-<h2 id="installation">Installation</h2>
+                                <h1 id="theming-your-app">Theming Your App</h1>
+<p>Customizing Messaging App will be a cakewalk for you. That is due to the fact, we provide you well prepared code shape. This makes it quite simple to be able to dig through the code and hence without problems customizable.</p>
 <ul>
-<li><strong>Opt #1. Download ZIP</strong></li>
+<li>Messaging App has categorized its screens into different sections.</li>
+<li>Messaging App has a separate file inclusive of color schemes for different sections.</li>
+<li>Messaging App strictly follows programming ethics, hence modifying logo at different locations for your app becomes very simple.</li>
+<li>Messaging App also allows you to customize name for your app.</li>
 </ul>
-<p>Not familiar with Git?
-<a href="http://gitstrap.com/strapmobile/MessagingApp-with-backend-integration/repository/archive.zip" target="_blank">Click here</a> to download the Full Version of Messaging App.
-Extract the contents of ZIP file after downloading.
-Downloading ZIP file does not help you to sync with further updates of Messaging App.</p>
+<h1 id="change-components-color">Change Components Color</h1>
+<p>To customize any component of <a href="">React Native Messaging App Theme</a> is very easy now.
+Follow the <a href="http://nativebase.io/docs/v0.5.13/customize" target="_blank">NativeBase Theme</a> procedure to do so.</p>
+<h1 id="change-app-logo">Change App logo</h1>
+<p>Messaging App comes with its logo at login page. To change logo at login page:</p>
 <ul>
-<li><p><strong>Opt #2. Clone using GitStrap Web Client</strong>
-To setup the Full Version for Messaging App on your system, with <strong>gitstrap</strong> tools to sync your app with constant updates, clone the repo.
-<a href="gitstrap-tools.html">Click here</a> to clone Messaging App using GitStrap.</p>
+<li>Include image of your logo named as <code>logo.png</code></li>
+<li>Place it under <code>/images/</code></li>
+</ul>
+<h1 id="change-app-icon">Change App Icon</h1>
+<p>Want to have your own icon for your app? This is very simple with Messaging App. 
+Follow below given steps to customize app-icon for your app.</p>
+<ul>
+<li>Visit <a href="https://makeappicon.com/" target="_blank">MakeAppIcon</a> website</li>
+<li>Enter the image of your choice to get logo of various dimensions</li>
+<li><p><strong>For iOS:</strong> </p>
+<p>  You should upload iOS icons to /ios/messaging/Images.xcassets/AppIcon.appiconset/</p>
 </li>
-<li><p>Install packages for Full Version</p>
-<pre><code>cd Messaging
-npm install
+<li><p><strong>For Android:</strong></p>
+<ul>
+<li>You should upload Android icons along with the folders named as:<ul>
+<li>mipmap-hdpi</li>
+<li>mipmap-mdpi</li>
+<li>mipmap-xhdpi</li>
+<li>mipmap-xxhdpi</li>
+</ul>
+</li>
+<li>Upload these folders to /android/app/src/main/res/</li>
+</ul>
+</li>
+<li>Restart packager and rebuild your app.</li>
+</ul>
+<h1 id="rename-app">Rename App</h1>
+<p>Renaming any <a href="https://github.com/facebook/react-native" target="_blank">React Native</a> app is strenous. But Messaging App proves its flexibility for this approach.
+Follow below given steps to rename your app.</p>
+<ul>
+<li>Rename the app name in following files.<ul>
+<li>package.json</li>
+<li>index.ios.js</li>
+<li>index.android.js</li>
+</ul>
+</li>
+<li><p>This process wipes out the <strong>launchscreen</strong> <strong>and app</strong> icon from your app. Hence you can restore them before moving ahead.</p>
+<p>  <strong>iOS:</strong> Restore <code>ios/messaging/Images.xcassets</code>
+  <strong>Android:</strong> Restore <code>/android/app/src/main/res</code></p>
+</li>
+<li>Delete the <strong>iOS</strong> and <strong>android</strong> directories from your project.</li>
+<li><p>Run following commands on your terminal:</p>
+<pre><code>react-native upgrade
+react-native android
 react-native link
 </code></pre></li>
-<li><p>To simulate for iOS</p>
-<ul>
-<li><strong>Method One:</strong><ul>
-<li>Open the project in XCode from <code>ios/messaging.xcworkspace</code>.</li>
-<li>Hit Build button to simulate.</li>
-</ul>
+<li><p>Overwrite all the files if it prompts.</p>
 </li>
-<li><strong>Method Two:</strong><ul>
-<li>Type <code>react-native run-ios</code> in your terminal.</li>
+<li>Repeat CodePush deployment if you want to include it in your app.</li>
+<li>Try simulating now.</li>
 </ul>
-</li>
-</ul>
-</li>
-<li><p>To simulate for Android</p>
-<ul>
-<li>Make sure you have an <code>Android emulator</code> installed and running.</li>
-<li>Type <code>react-native run-android</code> in your terminal.</li>
-</ul>
-</li>
-</ul>
-<p><em><strong>Note</strong>: If you are building React Native Messaging App Theme with Codepush for first time on your system, please follow <code>Method One</code> to simulate on iOS. (To link the CodePush plugin through Xcode for iOS)</em></p>
+<p>To be updated soon . . .</p>
 
                                 
                                 </section>
@@ -606,12 +630,12 @@ react-native link
 
             
                 
-                <a href="../installation.html" class="navigation navigation-prev " aria-label="Previous page: Installation">
+                <a href="../guide.html" class="navigation navigation-prev " aria-label="Previous page: Guide">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="gitstrap-tools.html" class="navigation navigation-next " aria-label="Next page: GitStrap Tools">
+                <a href="../packages.html" class="navigation navigation-next " aria-label="Next page: Packages">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -622,7 +646,7 @@ react-native link
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Full Version","level":"1.4.1","depth":2,"next":{"title":"GitStrap Tools","level":"1.4.2","depth":2,"path":"front-end/installation/gitstrap-tools.md","ref":"./front-end/installation/gitstrap-tools.md","articles":[]},"previous":{"title":"Installation","level":"1.4","depth":1,"path":"front-end/installation.md","ref":"./front-end/installation.md","articles":[{"title":"Full Version","level":"1.4.1","depth":2,"path":"front-end/installation/full-version.md","ref":"./front-end/installation/full-version.md","articles":[]},{"title":"GitStrap Tools","level":"1.4.2","depth":2,"path":"front-end/installation/gitstrap-tools.md","ref":"./front-end/installation/gitstrap-tools.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"front-end/installation/full-version.md","mtime":"2017-02-08T14:28:28.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-02-08T14:30:22.855Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Customize","level":"1.5.1","depth":2,"next":{"title":"Packages","level":"1.6","depth":1,"path":"front-end/packages.md","ref":"./front-end/packages.md","articles":[]},"previous":{"title":"Guide","level":"1.5","depth":1,"path":"front-end/guide.md","ref":"./front-end/guide.md","articles":[{"title":"Customize","level":"1.5.1","depth":2,"path":"front-end/guide/customize.md","ref":"./front-end/guide/customize.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"front-end/guide/customize.md","mtime":"2017-02-08T13:12:32.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-02-08T14:30:22.855Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>

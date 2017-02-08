@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Overview · GitBook</title>
+        <title>Guide · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.2">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="technologies.html" />
+    <link rel="next" href="guide/customize.html" />
     
     
-    <link rel="prev" href="../" />
+    <link rel="prev" href="installation/gitstrap-tools.html" />
     
 
     </head>
@@ -104,7 +104,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.2" data-path="./">
+        <li class="chapter " data-level="1.2" data-path="./">
             
                 <a href="./">
             
@@ -175,7 +175,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5" data-path="guide.html">
+        <li class="chapter active" data-level="1.5" data-path="guide.html">
             
                 <a href="guide.html">
             
@@ -522,7 +522,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Overview</a>
+        <a href=".." >Guide</a>
     </h1>
 </div>
 
@@ -537,11 +537,32 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="messaging-app">Messaging-App</h1>
-<p>Based on <a href="https://github.com/facebook/react-native" target="_blank">React Native</a> and <a href="http://nativebase.io/docs/v0.4.6/" target="_blank">NativeBase</a>, we offer you <a href="">React Native Messaging App Theme</a>; a well structured, responsive for iOS and Android, having fully customizable pages along-with a rich collection of UI elements specifically for an ideal messaging app to help you quickly get started on your next project.</p>
-<p><a href="">React Native Messaging App Theme</a> is a bold and flexible <a href="https://github.com/facebook/react-native" target="_blank">React Native</a> theme best suited for developing high-quality messaging apps that makes use of ready-made tools. The theme has several widget areas that allows you to extend your theme functionality with plugins. <a href="">React Native Messaging App Theme</a> is built using Mobx and is performance optimized which helps you to develop world-class application experiences on native platforms. This gives your app a consistent look and feel with the rest of the platform ecosystem, and keeps the quality bar high.</p>
-<p><a href="">Click Here</a> to know more</p>
-
+                                <h1 id="start-building-your-app">Start Building Your App</h1>
+<p>Messaging App guides you throughout building your app, providing the steps and procedure to customize.</p>
+<p><strong>Contents discussed in this section:</strong></p>
+<ul>
+<li><a href="#new-component">How to add new Component?</a></li>
+<li><a href="#new-styleSheet">How to add new StyleSheet?</a></li>
+</ul>
+<p><a id="new-component"></a></p>
+<h3 id="how-to-add-new-component">How to add new component</h3>
+<ul>
+<li>Create a new folder, say <code>newComponent</code> and place it under <code>/js/src</code> .</li>
+<li>Create a new file <code>index.js</code> , within this folder.</li>
+<li>Name the class same as that of folder name.</li>
+</ul>
+<pre><code>class NewComponent extends Component {
+    ...
+}
+</code></pre><p><a id="new-stylesheet"></a></p>
+<h3 id="how-to-add-new-stylesheet">How to add new styleSheet</h3>
+<p>Create a new file <code>styles.js</code> , place it under <code>/js/src/newComponent</code>.</p>
+<p><code>import</code> newly created StyleSheet into the Component.</p>
+<pre><code>import styles from &apos;./styles&apos;;
+class NewComponent extends Component {
+    ...
+}
+</code></pre>
                                 
                                 </section>
                             
@@ -568,12 +589,12 @@
 
             
                 
-                <a href="../" class="navigation navigation-prev " aria-label="Previous page: Introduction">
+                <a href="installation/gitstrap-tools.html" class="navigation navigation-prev " aria-label="Previous page: GitStrap Tools">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="technologies.html" class="navigation navigation-next " aria-label="Next page: Technologies">
+                <a href="guide/customize.html" class="navigation navigation-next " aria-label="Next page: Customize">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -584,7 +605,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Overview","level":"1.2","depth":1,"next":{"title":"Technologies","level":"1.3","depth":1,"path":"front-end/technologies.md","ref":"./front-end/technologies.md","articles":[]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"front-end/README.md","mtime":"2017-02-08T14:31:54.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-02-08T14:30:22.855Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Guide","level":"1.5","depth":1,"next":{"title":"Customize","level":"1.5.1","depth":2,"path":"front-end/guide/customize.md","ref":"./front-end/guide/customize.md","articles":[]},"previous":{"title":"GitStrap Tools","level":"1.4.2","depth":2,"path":"front-end/installation/gitstrap-tools.md","ref":"./front-end/installation/gitstrap-tools.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"front-end/guide.md","mtime":"2017-02-08T14:27:50.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-02-08T14:30:22.855Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
