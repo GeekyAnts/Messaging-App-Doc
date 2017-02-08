@@ -704,12 +704,13 @@
 <p><em><strong>Note:</strong></em> Go through the complete procedure of installation if you wish to include <strong>CodePush</strong> with your app. Otherwise, please skip the steps corresponding to Codepush.</p>
 <h2 id="installation">Installation</h2>
 <ul>
-<li><p><strong>Opt #1. Download ZIP</strong></p>
-<p>  Not familiar with Git?
-  <a href="http://gitstrap.com/strapmobile/MessagingApp-with-backend-integration/repository/archive.zip" target="_blank">Click here</a> to download the Full Version of Messaging  App.
-  Extract the contents of ZIP file after downloading.
-  Downloading ZIP file does not help you to sync with   further updates of Messaging App.</p>
-</li>
+<li><strong>Opt #1. Download ZIP</strong></li>
+</ul>
+<p>Not familiar with Git?
+<a href="http://gitstrap.com/strapmobile/MessagingApp-with-backend-integration/repository/archive.zip" target="_blank">Click here</a> to download the Full Version of Messaging App.
+Extract the contents of ZIP file after downloading.
+Downloading ZIP file does not help you to sync with further updates of Messaging App.</p>
+<ul>
 <li><p><strong>Opt #2. Clone using GitStrap Web Client</strong>
 To setup the Full Version for Messaging App on your system, with <strong>gitstrap</strong> tools to sync your app with constant updates, clone the repo.
 <a href="gitstrap-tools.html">Click here</a> to clone Messaging App using GitStrap.</p>
@@ -719,22 +720,27 @@ To setup the Full Version for Messaging App on your system, with <strong>gitstra
 npm install
 react-native link
 </code></pre></li>
-<li><p>Install <a href="https://github.com/Microsoft/react-native-code-push" target="_blank">CodePush</a> globally and get keys for your app.</p>
+<li><p>To simulate for iOS</p>
+<ul>
+<li><strong>Method One:</strong><ul>
+<li>Open the project in XCode from <code>ios/messaging.xcworkspace</code>.</li>
+<li>Hit Build button to simulate.</li>
+</ul>
 </li>
-<li><p><a href="https://github.com/Microsoft/react-native-code-push" target="_blank">CodePush</a> plugin installation and key deployment.</p>
-</li>
-<li><p>To simulate for iOS
-<strong>Method One:</strong>
-Open the project in XCode from ios/messaging.xcodeproj.
-Hit  button to simulate.
-<strong>Method Two:</strong>
-Type react-native run-ios in your terminal.</p>
+<li><strong>Method Two:</strong><ul>
+<li>Type <code>react-native run-ios</code> in your terminal.</li>
+</ul>
 </li>
 </ul>
-<p>To simulate for Android
-Make sure you have an Android emulator installed and running.
-Type react-native run-android in your terminal.</p>
-<p>Note: If you are building React Native Messaging App Theme with Codepush for first time on your system, please follow Method One to simulate on iOS. (To link the CodePush plugin through Xcode for iOS)</p>
+</li>
+<li><p>To simulate for Android</p>
+<ul>
+<li>Make sure you have an <code>Android emulator</code> installed and running.</li>
+<li>Type <code>react-native run-android</code> in your terminal.</li>
+</ul>
+</li>
+</ul>
+<p><em><strong>Note</strong>: If you are building React Native Messaging App Theme with Codepush for first time on your system, please follow <code>Method One</code> to simulate on iOS. (To link the CodePush plugin through Xcode for iOS)</em></p>
 
                                 
                                 </section>
@@ -778,7 +784,7 @@ Type react-native run-android in your terminal.</p>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Full Version","level":"1.4.1","depth":2,"next":{"title":"GitStrap Tools","level":"1.4.2","depth":2,"path":"front-end/installation/gitstrap-tools.md","ref":"./front-end/installation/gitstrap-tools.md","articles":[]},"previous":{"title":"Installation","level":"1.4","depth":1,"path":"front-end/installation.md","ref":"./front-end/installation.md","articles":[{"title":"Full Version","level":"1.4.1","depth":2,"path":"front-end/installation/full-version.md","ref":"./front-end/installation/full-version.md","articles":[]},{"title":"GitStrap Tools","level":"1.4.2","depth":2,"path":"front-end/installation/gitstrap-tools.md","ref":"./front-end/installation/gitstrap-tools.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"front-end/installation/full-version.md","mtime":"2017-02-06T14:16:06.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-02-06T14:17:50.135Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Full Version","level":"1.4.1","depth":2,"next":{"title":"GitStrap Tools","level":"1.4.2","depth":2,"path":"front-end/installation/gitstrap-tools.md","ref":"./front-end/installation/gitstrap-tools.md","articles":[]},"previous":{"title":"Installation","level":"1.4","depth":1,"path":"front-end/installation.md","ref":"./front-end/installation.md","articles":[{"title":"Full Version","level":"1.4.1","depth":2,"path":"front-end/installation/full-version.md","ref":"./front-end/installation/full-version.md","articles":[]},{"title":"GitStrap Tools","level":"1.4.2","depth":2,"path":"front-end/installation/gitstrap-tools.md","ref":"./front-end/installation/gitstrap-tools.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"front-end/installation/full-version.md","mtime":"2017-02-08T11:08:42.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-02-08T13:04:46.776Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
