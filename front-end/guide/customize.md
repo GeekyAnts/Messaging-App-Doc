@@ -1,28 +1,21 @@
 # Theming Your App
 
-Customizing Messaging App will be a cakewalk for you. That is due to the fact, we provide you well prepared code shape. This makes it quite simple to be able to dig through the code and hence without problems customizable.
+Customizing [Messaging App](http://market.nativebase.io/view/react-native-messaging-app-with-backend) will be a cakewalk for you. That is due to the fact, we provide you well prepared code shape. This makes it quite simple to be able to dig through the code and hence without problems customizable.
 
-* Messaging App has categorized its screens into different sections.
-* Messaging App has a separate file inclusive of color schemes for different sections.
-* Messaging App strictly follows programming ethics, hence modifying logo at different locations for your app becomes very simple.
-* Messaging App also allows you to customize name for your app.
+* [Messaging App](http://market.nativebase.io/view/react-native-messaging-app-with-backend) has categorized its screens into different sections.
+* [Messaging App](http://market.nativebase.io/view/react-native-messaging-app-with-backend) has a separate file inclusive of color schemes for different sections.
+* [Messaging App](http://market.nativebase.io/view/react-native-messaging-app-with-backend) strictly follows programming ethics, hence modifying logo at different locations for your app becomes very simple.
+* [Messaging App](http://market.nativebase.io/view/react-native-messaging-app-with-backend) also allows you to customize name for your app.
 
 
 # Change Components Color
 
 To customize any component of [React Native Messaging App ](http://market.nativebase.io/view/react-native-messaging-app-with-backend) is very easy now.
-Follow the [NativeBase ](http://nativebase.io/docs/v0.5.13/customize) procedure to do so.
-
-# Change App logo
-
-Messaging App comes with its logo at login page. To change logo at login page:
-
-* Include image of your logo named as ``` logo.png ```
-* Place it under ```/images/```
+Follow the [NativeBase ](http://nativebase.io/docs/v2.0.0/customize#) procedure to do so.
 
 # Change App Icon
 
-Want to have your own icon for your app? This is very simple with Messaging App.
+Want to have your own icon for your app? This is very simple with [Messaging App](http://market.nativebase.io/view/react-native-messaging-app-with-backend).
 Follow below given steps to customize app-icon for your app.
 
 * Visit [MakeAppIcon](https://makeappicon.com/) website
@@ -44,7 +37,7 @@ Follow below given steps to customize app-icon for your app.
 
 # Rename App
 
-Renaming any [React Native](https://github.com/facebook/react-native) app is strenous. But Messaging App proves its flexibility for this approach.
+Renaming any [React Native](https://github.com/facebook/react-native) app is strenous. But [Messaging App](http://market.nativebase.io/view/react-native-messaging-app-with-backend) proves its flexibility for this approach.
 Follow below given steps to rename your app.
 
 * Rename the app name in following files.
@@ -70,4 +63,4 @@ react-native link
 
 
 
-To be updated soon . . .
+_To be updated soon . . ._

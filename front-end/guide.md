@@ -1,6 +1,6 @@
 # Start Building Your App
 
-Messaging App guides you throughout building your app, providing the steps and procedure to customize.
+[Messaging App](http://market.nativebase.io/view/react-native-messaging-app-with-backend) guides you throughout building your app, providing the steps and procedure to customize.
 
 
 **Contents discussed in this section:**

@@ -11,12 +11,12 @@ npm install -g gitstrap-cli
   ```
   The above line of command functions as listed below:
   * ``` my-repo ``` should be an existing repository.
-  * Clones Messaging App (upstream) on user local system with same git-branch as that of upstream, say ``` master ```.
-  * Sets the upstream (Messaging App) and origin (my-repo) on user local system respectively.
+  * Clones [Messaging App](http://market.nativebase.io/view/react-native-messaging-app-with-backend) (upstream) on user local system with same git-branch as that of upstream, say ``` master ```.
+  * Sets the upstream ([Messaging App](http://market.nativebase.io/view/react-native-messaging-app-with-backend)) and origin (my-repo) on user local system respectively.
   * Push to user remote repo.
   * ``` folder-name ``` is optional argument of gitstrap init command.
-    * Without _folder-name_ : Clones Messaging App into your current location of directory.
-    * With _folder-name_ : Clones Messaging App into the specified location of your directory.
+    * Without _folder-name_ : Clones [Messaging App](http://market.nativebase.io/view/react-native-messaging-app-with-backend) into your current location of directory.
+    * With _folder-name_ : Clones [Messaging App](http://market.nativebase.io/view/react-native-messaging-app-with-backend) into the specified location of your directory.
 
 * Sync Update from GitStrap Repo
   ```
@@ -29,7 +29,7 @@ npm install -g gitstrap-cli
   * ```upstream-branch``` is optional argument of _gitstrap sync_ command.
   This lets you choose between your git-branch for sync.
   _Example:_
-  * If you want to sync Messaging App's ```master``` with your repo's ```development```, include ```upstream-branch``` with gitstrap sync command.
+  * If you want to sync [Messaging App](http://market.nativebase.io/view/react-native-messaging-app-with-backend)'s ```master``` with your repo's ```development```, include ```upstream-branch``` with gitstrap sync command.
   * ```git checkout development```
 
   ```gitstrap sync master```

@@ -1,7 +1,7 @@
 ### Package Contents
 
 [React Native Messaging App ](http://market.nativebase.io/view/react-native-messaging-app-with-backend) delivers you a complete package of React Native mobile theme with private **git-access**.
-Grab access of **GitStrap** on purchase to get going with Messaging App along with constant updates.
+Grab access of **GitStrap** on purchase to get going with [Messaging App](http://market.nativebase.io/view/react-native-messaging-app-with-backend) along with constant updates.
 
 **Full Version**
 

@@ -30,7 +30,7 @@
     * [Channel](./back-end/channel.md)
     * [ChannelMessages](./back-end/channelmessages.md)
     * [Users](./back-end/users.md)
-* Other Services
+* [Other Services](./back-end/other-services.md)
     * [Twillio](./back-end/twillio.md)
     * [OneSignal](./back-end/onesignal.md)
 * [Deploy](./back-end/deploy.md)

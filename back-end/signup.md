@@ -13,5 +13,5 @@ Contains route which gets the mobile number from user generate SMS and send it c
 2. **Parameters:**
 
    ```
-   It doesn't take any parameter .
+   It doesn't take any parameter
    ```
