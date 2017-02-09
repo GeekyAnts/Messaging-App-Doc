@@ -12,7 +12,7 @@
     * [Channel](channel.md)
     * [ChannelMessages](channelmessages.md)
     * [Users](users.md)
-* Other Services
+* [Other Services](other-services.md)
     * [Twillio](twillio.md)
     * [OneSignal](onesignal.md)
 * [Deploy](deploy.md)
