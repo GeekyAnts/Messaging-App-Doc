@@ -2,20 +2,20 @@
 
 Run the following commands on your terminal to setup [React Native Messaging App ](http://market.nativebase.io/view/react-native-messaging-app-with-backend) on your system.
 
-_**Note:**_ Go through the complete procedure of installation if you wish to include **CodePush** with your app. Otherwise, please skip the steps corresponding to Codepush.
 
 ## Installation
 
 * **Opt #1. Download ZIP**
 
 Not familiar with Git?
-[Click here](http://gitstrap.com/strapmobile/MessagingApp-with-backend-integration/repository/archive.zip) to download the Full Version of [Messaging App](http://market.nativebase.io/view/react-native-messaging-app-with-backend).
+[Click here](http://gitstrap.com/strapmobile/MessagingApp-with-backend-integration/repository/archive.zip) to download the Full Version of the theme.
 Extract the contents of ZIP file after downloading.
 Downloading ZIP file does not help you to sync with further updates of [Messaging App](http://market.nativebase.io/view/react-native-messaging-app-with-backend).
 
 * **Opt #2. Clone using GitStrap Web Client**
+
 To setup the Full Version for [Messaging App](http://market.nativebase.io/view/react-native-messaging-app-with-backend) on your system, with **gitstrap** tools to sync your app with constant updates, clone the repo.
-[Click here](./gitstrap-tools.md) to clone [Messaging App](http://market.nativebase.io/view/react-native-messaging-app-with-backend) using GitStrap.
+[Click here](./gitstrap-tools.md) to clone the theme using GitStrap.
 
 * Install packages for Full Version
 ```
@@ -34,5 +34,3 @@ react-native link
 * To simulate for Android
   * Make sure you have an ``` Android emulator ``` installed and running.
   * Type ``` react-native run-android ``` in your terminal.
-
-_**Note**: If you are building React Native [Messaging App](http://market.nativebase.io/view/react-native-messaging-app-with-backend)  with Codepush for first time on your system, please follow ``` Method One ``` to simulate on iOS. (To link the CodePush plugin through Xcode for iOS)_

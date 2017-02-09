@@ -171,7 +171,7 @@
     <div class="panel-footer">
         <b> Solution: </b><br />
         <a href="http://nativebase.io/">NativeBase</a> provides a separate file inclusive of color schemes for all components.<br />
-        Go through <a href="">Customize</a> section of docs.
+        Go through <a href="http://nativebase.io/docs/v2.0.0/customize#">Customize</a> section of docs.
     </div>
 </div>
 

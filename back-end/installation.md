@@ -10,11 +10,11 @@ System Requirements:
 
 #### Installation:
 
-* **Opt \#1. Download ZIP**: Not familiar with Git? [Click Here](http://gitstrap.com/strapmobile/MessagingApp-Backend/repository/archive.zip) to download the Full Version of MessagingApp. Extract the contents of ZIP file after downloading. Downloading ZIP file does not help you to sync with further updates of MessagingApp.
+* **Opt \#1. Download ZIP**: Not familiar with Git? [Click Here](http://gitstrap.com/strapmobile/MessagingApp-Backend/repository/archive.zip) to download the Full Version of MessagingApp. Extract the contents of ZIP file after downloading. Downloading ZIP file does not help you to sync with further updates of [Messaging App](http://market.nativebase.io/view/react-native-messaging-app-with-backend).
 
 * **Opt #2. Clone using GitStrap Web Client**
 To setup the Full Version for [Messaging App](http://market.nativebase.io/view/react-native-messaging-app-with-backend) on your system, with **gitstrap** tools to sync your app with constant updates, clone the repo.
-[Click here](../front-end/installation/gitstrap-tools.md) to clone [Messaging App](http://market.nativebase.io/view/react-native-messaging-app-with-backend) using GitStrap.
+[Click here](../front-end/installation/gitstrap-tools.md) to clone the theme using GitStrap.
 
 * #### Run these commands on your terminal:
 

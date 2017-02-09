@@ -2,10 +2,10 @@
 
 Customizing [Messaging App](http://market.nativebase.io/view/react-native-messaging-app-with-backend) will be a cakewalk for you. That is due to the fact, we provide you well prepared code shape. This makes it quite simple to be able to dig through the code and hence without problems customizable.
 
-* [Messaging App](http://market.nativebase.io/view/react-native-messaging-app-with-backend) has categorized its screens into different sections.
-* [Messaging App](http://market.nativebase.io/view/react-native-messaging-app-with-backend) has a separate file inclusive of color schemes for different sections.
-* [Messaging App](http://market.nativebase.io/view/react-native-messaging-app-with-backend) strictly follows programming ethics, hence modifying logo at different locations for your app becomes very simple.
-* [Messaging App](http://market.nativebase.io/view/react-native-messaging-app-with-backend) also allows you to customize name for your app.
+* The theme has categorized its screens into different sections.
+* The theme has a separate file inclusive of color schemes for different sections.
+* The theme strictly follows programming ethics, hence modifying logo at different locations for your app becomes very simple.
+* The theme also allows you to customize name for your app.
 
 
 # Change Components Color

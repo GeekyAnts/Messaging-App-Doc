@@ -1,7 +1,7 @@
 ## Technologies Used
 
 The components of [React Native Messaging App ](http://market.nativebase.io/view/react-native-messaging-app-with-backend) are built using the core components of [React Native](https://github.com/facebook/react-native) and [NativeBase](http://nativebase.io/).
-Taxi App also constantly incorporates various other lastest technologies.
+The theme also constantly incorporates various other latest technologies.
 
 * React Native
 * NativeBase

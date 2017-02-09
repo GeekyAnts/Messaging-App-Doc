@@ -15,8 +15,8 @@ npm install -g gitstrap-cli
   * Sets the upstream ([Messaging App](http://market.nativebase.io/view/react-native-messaging-app-with-backend)) and origin (my-repo) on user local system respectively.
   * Push to user remote repo.
   * ``` folder-name ``` is optional argument of gitstrap init command.
-    * Without _folder-name_ : Clones [Messaging App](http://market.nativebase.io/view/react-native-messaging-app-with-backend) into your current location of directory.
-    * With _folder-name_ : Clones [Messaging App](http://market.nativebase.io/view/react-native-messaging-app-with-backend) into the specified location of your directory.
+    * Without _folder-name_ : Clones the theme into your current location of directory.
+    * With _folder-name_ : Clones the theme into the specified location of your directory.
 
 * Sync Update from GitStrap Repo
   ```
