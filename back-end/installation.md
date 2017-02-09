@@ -6,11 +6,11 @@ System Requirements:
 
 * Globally installed [npm](https://www.npmjs.com/)&gt;= 3.10.3
 
-* Globally installe [mongodb](https://docs.mongodb.com/)&gt;=3.4.1
+* Globally installed [mongodb](https://docs.mongodb.com/)&gt;=3.4.1
 
 #### Installation:
 
-* **Opt \#1. Download ZIP**: Not familiar with Git? [Click Here](http://gitstrap.com/strapmobile/MessagingApp-Backend/repository/archive.zip) to download the Full Version ofMessagingApp. Extract the contents of ZIP file after downloading. Downloading ZIP file does not help you to sync with further updates of MessagingApp.
+* **Opt \#1. Download ZIP**: Not familiar with Git? [Click Here](http://gitstrap.com/strapmobile/MessagingApp-Backend/repository/archive.zip) to download the Full Version of MessagingApp. Extract the contents of ZIP file after downloading. Downloading ZIP file does not help you to sync with further updates of MessagingApp.
 
 * **Opt #2. Clone using GitStrap Web Client**
 To setup the Full Version for Messaging App on your system, with **gitstrap** tools to sync your app with constant updates, clone the repo.
@@ -19,7 +19,7 @@ To setup the Full Version for Messaging App on your system, with **gitstrap** to
   * #### Run these commands on your terminal:
 
     ```
-          Open a terminal window to initate mongod:
+          Open a terminal window to initiate mongod:
 
           [user@localhost]$  mongod
     ```
@@ -38,7 +38,7 @@ To setup the Full Version for Messaging App on your system, with **gitstrap** to
 
 ##### **Twillio:**
 
-Twilio is a cloud communicationsplatform as a service \([[PaaS](https://en.wikipedia.org/wiki/Platform_as_a_service)](http://gitlab.sahusoft.com/products/messaging-app-backend.git)\) company . Twilio allowssoftware developersto programmatically make and receivephone callsand send and receivetext messagesusing itsweb service APIs. Twilio's services are accessed overHTTPand are billed based on usage. If you want to use Messaging App with Backend Code you need to signUp on twillio platform and to obtain accountSid ,authToken and one mobile Numbercredentialsfrom the twillio’s platform.
+Twilio is a cloud communications platform as a service \([[PaaS](https://en.wikipedia.org/wiki/Platform_as_a_service)](http://gitlab.sahusoft.com/products/messaging-app-backend.git)\) company . Twilio allows software developers to programmatically make and receive phone calls and send and receive text messages using its web service APIs. Twilio's services are accessed over HTTP and are billed based on usage. If you want to use Messaging App with Backend Code you need to signUp on twillio platform and to obtain accountSid ,authToken and one mobile Number credentials from the twillio’s platform.
 
 ##### One Signal :
 

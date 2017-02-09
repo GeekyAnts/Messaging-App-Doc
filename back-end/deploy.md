@@ -4,13 +4,13 @@ Deploying is a big part of the lives of most  developers . We don't have a relea
 
 The best system we've found so far to provide this flexibility is to have people deploy branches. We have taken special care of to roll out repetitive work so if any new branch merges with master it automatically deploy itself.
 
-We have taken special care that master remains stable and is always working with the latest for that we have two servers namily
+We have taken special care that master remains stable and is always working with the latest for that we have two servers namely
 
 Staging and Production .This means that master is always stable; a safe point that we can roll back to if there's a problem.By default staging server points to the Develop/Development branch of the code and production server points to master branch of the code.
 
 ### Deploying Libraries
 
-There may be times when you want to make a library available to your team without making it public. This is best done by setting up a private repository. 
+There may be times when you want to make a library available to your team without making it public. This is best done by setting up a private repository.
 
 #### Static HTTP
 
@@ -19,7 +19,7 @@ The simplest kind of private repository is a web server pointed at a directory f
 #Setting up the Sync-Messaging App Backend
 
 ## LOCAL SERVER
-1.clone the repo from 
+1.clone the repo from
   ```
   http://gitlab.sahusoft.com/products/messaging-app-backend
   ```
@@ -88,8 +88,3 @@ Go inside the project directory `cd Sites/projects/messaging-app-backend`
       `forever list`
       - You will get an id of the app, from which you can
     `forever restart <ID>`
-
-
-  
-
-

@@ -1,6 +1,6 @@
 # Full Version
 
-Run the following commands on your terminal to setup [React Native Messaging App Theme]() on your system.
+Run the following commands on your terminal to setup [React Native Messaging App ](http://market.nativebase.io/view/react-native-messaging-app-with-backend) on your system.
 
 _**Note:**_ Go through the complete procedure of installation if you wish to include **CodePush** with your app. Otherwise, please skip the steps corresponding to Codepush.
 
@@ -35,4 +35,4 @@ react-native link
   * Make sure you have an ``` Android emulator ``` installed and running.
   * Type ``` react-native run-android ``` in your terminal.
 
-_**Note**: If you are building React Native Messaging App Theme with Codepush for first time on your system, please follow ``` Method One ``` to simulate on iOS. (To link the CodePush plugin through Xcode for iOS)_
+_**Note**: If you are building React Native Messaging App  with Codepush for first time on your system, please follow ``` Method One ``` to simulate on iOS. (To link the CodePush plugin through Xcode for iOS)_

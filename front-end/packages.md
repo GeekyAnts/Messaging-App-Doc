@@ -1,6 +1,6 @@
 # Packages Used
 
--package.json_
+_package.json_
 
 <pre class="line-numbers"><code class="language-json">
 {
@@ -59,6 +59,3 @@
     "remote-redux-devtools": "^0.5.5"
   }
 }</code></pre>
-
-
-

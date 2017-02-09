@@ -1,10 +1,6 @@
-# Twillio
+# [Twilio](https://www.twilio.com/)
 
-Twilio is a cloud communicationsplatform as a service \([[PaaS](https://en.wikipedia.org/wiki/Platform_as_a_service)](http://gitlab.sahusoft.com/products/messaging-app-backend.git)\) company . Twilio allowssoftware developersto programmatically make and receivephone callsand send and receivetext messagesusing itsweb service APIs. Twilio's services are accessed overHTTPand are billed based on usage. If you want to use Messaging App with Backend Code you need to signUp on twillio platform and to obtain accountSid ,authToken and one mobile Numbercredentialsfrom the twillio’s platform.
+[Twilio](https://www.twilio.com/) is a cloud communications platform as a service \([[PaaS](https://en.wikipedia.org/wiki/Platform_as_a_service)](http://gitlab.sahusoft.com/products/messaging-app-backend.git)\) company . [Twilio](https://www.twilio.com/) allows software developers to programmatically make and receive phone calls and send and receive text messages using its web service APIs. [Twilio](https://www.twilio.com/)'s services are accessed over HTTP and are billed based on usage. If you want to use Messaging App with Backend Code you need to signUp on [Twilio](https://www.twilio.com/) platform and to obtain **accountSid** ,**authToken** and one mobile Number credentials from [Twilio](https://www.twilio.com/).
 
-Service Config: src/middleware/index.js
-
-
-
-Change the accountSid and authToken that you received for your account details . 
-
+Change the **accountSid** and **authToken** that you received for your account in the given path of the MessagingApp-Backend repository:
+``` /config/secretToken.js ```

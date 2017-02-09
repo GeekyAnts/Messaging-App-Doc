@@ -1,6 +1,6 @@
 ## Technologies Used
 
-The components of [React Native Messaging App Theme]() are built using the core components of [React Native](https://github.com/facebook/react-native) and [NativeBase](http://nativebase.io/docs/v0.4.6/).
+The components of [React Native Messaging App ](http://market.nativebase.io/view/react-native-messaging-app-with-backend) are built using the core components of [React Native](https://github.com/facebook/react-native) and [NativeBase](http://nativebase.io/docs/v0.4.6/).
 Taxi App also constantly incorporates various other lastest technologies.
 
 * React Native
@@ -40,4 +40,3 @@ Making an app reactive using [Mobx](https://github.com/mobxjs/mobx) boils down t
 ##[CodePush](https://github.com/Microsoft/react-native-code-push)
 [React Native](https://github.com/facebook/react-native) app is composed of JavaScript files, images, which are bundled together by the packager and distributed as part of a platform-specific binary (i.e. an .ipa or .apk file). Once the app is released, updating either the JavaScript code or image assets, requires you to recompile and redistribute the entire binary.
 The CodePush plugin helps get product improvements in front of your end users instantly, with the aid of preserving your javascript and images synchronized with updates you launch to the CodePush server. This way, your app gets the benefits of an offline mobile experience, as well as the "web-like" agility of side-loading updates as soon as they are available.
-

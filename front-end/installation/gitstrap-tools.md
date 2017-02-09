@@ -1,5 +1,4 @@
-#
-GitStrap CLI Tools
+# GitStrap CLI Tools
 
 * Globally install GitStrap CLI
 ```

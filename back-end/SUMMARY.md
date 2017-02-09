@@ -1,19 +1,18 @@
 # Summary
 
 * [Introduction](README.md)
-* [Technologies](chapter1.md)
+* [Technologies](technologies.md)
 * [Installation](installation.md)
-* [Outline](outline.md)
 * [Middlewares](middlewares.md)
     * [Signup](signup.md)
     * [otpVerify](otpverify.md)
     * [Chatroom](chatroom.md)
+    * [ChannelList](ChannelList.md)
 * [Services](services.md)
     * [Channel](channel.md)
-    * [channelMessages](channelmessages.md)
-    * [users](users.md)
-* [Other Services](other-services.md)
+    * [ChannelMessages](channelmessages.md)
+    * [Users](users.md)
+* Other Services
     * [Twillio](twillio.md)
     * [OneSignal](onesignal.md)
 * [Deploy](deploy.md)
-
