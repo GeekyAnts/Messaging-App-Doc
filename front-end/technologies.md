@@ -1,6 +1,6 @@
 ## Technologies Used
 
-The components of [React Native Messaging App ](http://market.nativebase.io/view/react-native-messaging-app-with-backend) are built using the core components of [React Native](https://github.com/facebook/react-native) and [NativeBase](http://nativebase.io/docs/v0.4.6/).
+The components of [React Native Messaging App ](http://market.nativebase.io/view/react-native-messaging-app-with-backend) are built using the core components of [React Native](https://github.com/facebook/react-native) and [NativeBase](http://nativebase.io/).
 Taxi App also constantly incorporates various other lastest technologies.
 
 * React Native
@@ -15,16 +15,15 @@ The hymn of React Native — **learn once, write anywhere**.
 React Native takes charge of the view controllers and programatically generates native views using javascript. This means that you can have all the speed and power of a native application, with the ease of development that comes with React.
 
 
-## [NativeBase](http://nativebase.io/docs/v0.4.6/)
+## [NativeBase](http://nativebase.io/)
 NativeBase is an open source framework from the team of [StrapMobile](https://strapmobile.com/).
 This framework enable developers to build high-quality mobile apps using [React Native](https://github.com/facebook/react-native) iOS and Android apps with a fusion of [ES6](https://github.com/lukehoban/es6features). NativeBase builds a layer on top of React Native that provides you with basic set of components for mobile application development. The applications stack of components is built using native UI components and because of that, there are no compromises with the User Experience of the applications. NativeBase is targeted specially on the look and feel, and UI interplay of your app.
 NativeBase without a doubt fits in well with mobile applications which cut downs one huge part of your app - The Front end.
 
 **Quick links to NativeBase**
 * [GitHub](https://github.com/GeekyAnts/NativeBase)
-* [NativeBase Features](http://nativebase.io/docs/v0.4.6/guide/why-nativebase)
-* [NativeBase Components](http://nativebase.io/docs/v0.4.6/components#)
-* [Documentation](http://nativebase.io/docs/v0.4.6/)
+* [NativeBase Components](http://nativebase.io/docs/v2.0.0/components#)
+* [Documentation](http://nativebase.io/docs/v2.0.0/)
 * [Blogs](https://blog.nativebase.io/)
 
 ## [Mobx](https://github.com/mobxjs/mobx)

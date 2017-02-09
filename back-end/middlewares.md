@@ -12,5 +12,4 @@ While services primarily provide APIs for a client side application to use, they
 
 `/todos?user_id= < userid >`
 
-. This approach also makes it easier to use by non REST providers like websockets and any other protocols Feathers might support in the future.
-
+This approach also makes it easier to use by non REST providers like websockets and any other protocols Feathers might support in the future.

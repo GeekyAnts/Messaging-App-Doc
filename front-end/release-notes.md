@@ -5,7 +5,7 @@
 
 * Integrated [React](https://facebook.github.io/react/) 15.4.1
 * Integrated [React Native](https://github.com/facebook/react-native) 0.39.0
-* Integrated [NativeBase](http://nativebase.io/docs/v0.4.6/)
+* Integrated [NativeBase](http://nativebase.io/)
  0.5.18
 * Integrated [Mobx](https://github.com/mobxjs/mobx) 2.6.5
 * Integrated [React Native CodePush](https://github.com/Microsoft/react-native-code-push) 1.16.1-beta

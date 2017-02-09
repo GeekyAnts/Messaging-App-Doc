@@ -16,7 +16,7 @@ There may be times when you want to make a library available to your team withou
 
 The simplest kind of private repository is a web server pointed at a directory full of static files. You can use a`file:///`URL in your`:repositories`to deploy that way if the directory is local to the machine on which Leiningen is running.
 
-#Setting up the Sync-Messaging App Backend
+#Setting up the [Messaging App](http://market.nativebase.io/view/react-native-messaging-app-with-backend) Backend
 
 ## LOCAL SERVER
 1.clone the repo from
