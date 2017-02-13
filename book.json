@@ -1,3 +1,26 @@
 {
-  "title": "MessagingApp"
+    "plugins": [
+        "ga",
+        "versions"
+    ],
+    "title": "MessagingApp",
+    "pluginsConfig": {
+        "versions": {
+            "gitbookConfigURL": "http://rawgit.com/GeekyAnts/reazy-docs/master/book.json",
+            "options": [
+                {
+                    "value": "http://docs.reazyframework.io",
+                    "text": "latest"
+                },
+                {
+                    "value": "http://docs.reazyframework.io",
+                    "text": "-- select version --",
+                    "selected": false
+                }
+            ]
+        },
+        "ga": {
+            "token": "UA-91837749-1"
+        }
+    }
 }
