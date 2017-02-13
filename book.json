@@ -6,7 +6,7 @@
     "title": "MessagingApp",
     "pluginsConfig": {
         "versions": {
-            "gitbookConfigURL": "http://rawgit.com/GeekyAnts/MessagingApp-docs/master/book.json",
+            "gitbookConfigURL": "http://rawgit.com/GeekyAnts/Messaging-App-docs/master/book.json",
             "options": [
                 {
                     "value": "http://docs.market.nativebase.io/messaging-app/",
