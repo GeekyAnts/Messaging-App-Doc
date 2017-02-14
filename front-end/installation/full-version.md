@@ -23,6 +23,9 @@ cd Messaging
 npm install
 react-native link
 ```
+* After linking all the libraries, create a duplicate of config.example.js as below <br/>
+``` cp config.example.js config.js ``` <br/>
+Edit the ```config.js``` file to set your own **server URL** and **port number**
 
 * To simulate for iOS
   * **Method One:**
