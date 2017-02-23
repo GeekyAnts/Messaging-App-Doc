@@ -15,4 +15,3 @@
 * [Other Services](other-services.md)
     * [Twillio](twillio.md)
     * [OneSignal](onesignal.md)
-* [Deploy](deploy.md)

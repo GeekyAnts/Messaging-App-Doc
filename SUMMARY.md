@@ -33,4 +33,3 @@
 * [Other Services](./back-end/other-services.md)
     * [Twillio](./back-end/twillio.md)
     * [OneSignal](./back-end/onesignal.md)
-* [Deploy](./back-end/deploy.md)
