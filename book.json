@@ -1,10 +1,15 @@
 {
     "plugins": [
         "ga",
+        "edit-link",
         "versions"
     ],
     "title": "MessagingApp",
     "pluginsConfig": {
+        "edit-link": {
+            "base": "https://github.com/GeekyAnts/Messaging-App-docs/tree/master",
+            "label": "Edit This Page"
+        },
         "versions": {
             "gitbookConfigURL": "http://rawgit.com/GeekyAnts/Messaging-App-docs/master/book.json",
             "options": [
