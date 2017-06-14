@@ -4,7 +4,7 @@ System Requirements:
 
 * Globally installed [node](https://nodejs.org/en/)&gt;= 6.3.1
 
-* Globally installed [npm](https://www.npmjs.com/)&gt;= 3.10.3
+* Globally installed [npm](https://www.npmjs.com/)&gt;= 4
 
 * Globally installed [mongodb](https://docs.mongodb.com/)&gt;=3.4.1
 

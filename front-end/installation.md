@@ -10,8 +10,8 @@ A complete customizable theme system. Whilst coding this app we put in effort to
 
 **System Requirements**
 
-* Globally installed [node](https://nodejs.org/en/) >= 4.0
-* Globally installed [npm](https://www.npmjs.com/) >= 3.0
+* Globally installed [node](https://nodejs.org/en/) >= 6.3.1
+* Globally installed [npm](https://www.npmjs.com/) >= 4
 * Globally installed [react-native CLI](https://facebook.github.io/react-native/docs/getting-started.html)
 
 [Click here](./installation/full-version.md) for detailed information

@@ -9,6 +9,8 @@
 - [None of the above, I have a different error](#none)
 - [How to customize components of NativeBase?](#customize)
 - [I want list of icons with their names used in NativeBase](#list-icons)
+- [How do I extract files in Windows?](#windows-extraction)
+- [How to eject CRNA to get regular React Native app?](#CRNA-ejection)
 
 <br />
 
@@ -194,3 +196,45 @@
         Hence the collection of icons from Vector Icons holds good with that in NativeBase.
     </div>
 </div>
+
+<br />
+<hr>
+<br />
+
+<a id="windows-extraction"></a>
+#### How do I extract files in Windows?
+
+<div id="faq-10" class="panel-collapse collapse">
+    <div class="panel-body">
+     I want to extract files in Windows.   
+    </div>
+    <br />
+    <div class="panel-footer">
+        <b> Solution: </b><br />
+        • Unzip the file.<br />
+        • Right click on the extracted file and select <b>View files</b>.<br />
+        All the files will be extracted.<br /><br />
+
+
+        <b> NOTE: </b>We don't provide support for Windows. It's completely buyer's responsibility.
+    </div>
+</div>
+
+<br />
+<hr>
+<br />
+
+<a id="CRNA-ejection"></a>
+#### How to eject CRNA to get regular React Native app?
+
+<div id="faq-11" class="panel-collapse collapse">
+    <div class="panel-body">
+     I want to eject from CRNA to get regular React Native app.   
+    </div>
+    <br />
+    <div class="panel-footer">
+        <b> Solution: </b><br />
+        Ejecting from CRNA to regular React Native app can be performed referring this <a href="https://github.com/react-community/create-react-native-app/blob/master/EJECTING.md">link</a>.
+    </div>
+</div>
+
